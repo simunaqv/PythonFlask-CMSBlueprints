@@ -1,4 +1,4 @@
-from flask import Flask, render_template, abort
+from flask import Flask
 from cms.admin.models import Content, User, Setting, User, db
 from cms.admin import admin_bp
 
